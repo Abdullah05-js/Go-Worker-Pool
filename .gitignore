@@ -1,0 +1,41 @@
+# =====================
+# Root-level ignores
+# =====================
+# MacOS files
+.DS_Store
+
+# Editor folders (common)
+/.vscode/
+/.idea/
+
+# =====================
+# frontend (Next.js)
+# =====================
+/frontend/node_modules/
+/frontend/.next/
+/frontend/out/
+/frontend/dist/
+
+# frontend env files
+/frontend/.env*
+/frontend/*.log
+
+# =====================
+# Backend Go
+# =====================
+/backend/bin/
+/backend/build/
+/backend/vendor/
+/backend/*.exe
+/backend/*.exe~
+/backend/*.dll
+/backend/*.so
+/backend/*.dylib
+
+# Go modules
+/backend/go.mod
+/backend/go.sum
+
+
+
+*.env
